@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook SPA Clásico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="topbar">
+    <div class="logo">facebook</div>
+    <input type="search" class="search" placeholder="Buscar">
+  </header>
+
+  <!-- Navegación pestañas -->
+  <nav class="tabs">
+    <button data-section="muro" class="tab active">Muro</button>
+    <button data-section="info" class="tab">Info</button>
+    <button data-section="photos" class="tab">Fotos</button>
+    <button data-section="boxes" class="tab">Cajas</button>
+  </nav>
+
+  <main class="layout">
+    <!-- Columna izquierda -->
+    <aside class="sidebar">
+      <section class="profile">
+        <img src="img/perfil.png" alt="Foto de perfil" class="avatar">
+        <h2 class="username">Esmeralda</h2>
+        <div class="links">
+          <p><strong>Información</strong></p>
+          <p>Info</p>
+          <p><strong>Amigos</strong></p>   
+          <img src="img/perfil1.jpg" alt="Amigo 1">     
+          <img src="img/perfil1.jpg" alt="Amigo 2">  
+          <img src="img/perfil1.jpg" alt="Amigo 3">  
+          <img src="img/perfil1.jpg" alt="Amigo 4">  
+          <img src="img/perfil1.jpg" alt="Amigo 5">  
+          <img src="img/perfil1.jpg" alt="Amigo 6"> 
+          <a href="#">Ver todo</a>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Contenido central -->
+    <section id="content" class="content">
+      <!-- Aquí se inyecta la sección -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Demo Facebook SPA</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
